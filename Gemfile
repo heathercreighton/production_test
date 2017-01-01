@@ -17,7 +17,7 @@ gem 'carrierwave'
 gem 'mini_magick'
 gem 'fog'
 gem 'figaro'
-gem 'aws-sdk', '~> 2'
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -54,4 +54,5 @@ end
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+  gem 'aws-sdk', '~> 2.0'
 end
